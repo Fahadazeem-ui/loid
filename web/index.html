@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b0d13">
+    <meta name="description" content="Loid is a calm, private-by-default Discord AI assistant powered only by Claude Sonnet 5.">
+    <title>Loid — clarity, in your Discord</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Loid home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" role="img"><path d="M20 4.5 34 12.2v15.6l-14 7.7-14-7.7V12.2L20 4.5Z"/><path d="M13 25.8V14.2h3v8.9h8.5v2.7H13Z"/><circle cx="27.3" cy="15.2" r="2.2"/></svg>
+        </span>
+        <span class="brand-word">loid<span class="brand-period">.</span></span>
+        <span class="brand-divider" aria-hidden="true"></span>
+        <span class="brand-caption">AI for Discord</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#capabilities">Capabilities</a>
+        <a href="#commands">Commands</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#setup" class="nav-cta">Set up Loid <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero page-shell" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> THE CLEAR-HEADED DISCORD ASSISTANT</div>
+          <h1 id="hero-title">A little more<br><span class="gradient-text">clarity.</span></h1>
+          <p class="hero-lede">Ask better questions, turn long text into something useful, and get an explanation that meets you where you are.</p>
+          <p class="hero-support">Powered only by Claude Sonnet 5. Private by default. Built to feel simple from the very first command.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#setup">Bring Loid to your server <span aria-hidden="true">↘</span></a>
+            <a class="button button-quiet" href="#commands">Explore commands <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-meta"><span class="meta-check" aria-hidden="true">✓</span> No message-history access <span class="meta-separator">·</span> No hidden model switch</div>
+        </div>
+
+        <div class="hero-visual" aria-label="Illustrative preview of a private Loid response">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="visual-glow"></div>
+          <div class="assistant-card">
+            <div class="card-topline">
+              <div class="assistant-id"><span class="assistant-glyph" aria-hidden="true">L</span><span><strong>Loid</strong><small>YOUR THOUGHT PARTNER</small></span></div>
+              <span class="preview-pill"><span></span> DESIGN PREVIEW</span>
+            </div>
+            <div class="message incoming">
+              <span class="message-label">YOU · /ASK</span>
+              <p>Explain vector search like I'm new to it.</p>
+            </div>
+            <div class="answer-rule"><span></span><span></span><span></span></div>
+            <div class="message answer">
+              <div class="answer-heading"><span class="answer-icon" aria-hidden="true">✦</span><span>LOID'S ANSWER</span><span class="private-tag">PRIVATE</span></div>
+              <p>Imagine each idea as a point on a map. Similar ideas sit closer together—even when they use different words.</p>
+              <p class="muted-example">So “puppy” and “young dog” can still be found near each other.</p>
+            </div>
+            <div class="card-footer"><span>CLAUDE SONNET 5</span><span>·</span><span>ONLY VISIBLE TO YOU</span></div>
+          </div>
+          <div class="floating-note"><span class="note-icon">↗</span><span><strong>Clear, not complicated</strong><small>Good answers. Fewer hoops.</small></span></div>
+          <div class="visual-coordinate" aria-hidden="true">01 — 04 / PRIVATE BY DESIGN</div>
+        </div>
+      </section>
+
+      <div class="trust-strip page-shell" aria-label="Product principles">
+        <span><i class="trust-mark trust-violet" aria-hidden="true"></i> One model, by choice</span>
+        <span><i class="trust-mark trust-cyan" aria-hidden="true"></i> Your context stays yours</span>
+        <span><i class="trust-mark trust-gold" aria-hidden="true"></i> Designed for real people</span>
+      </div>
+
+      <section class="section page-shell" id="capabilities" aria-labelledby="capabilities-title">
+        <div class="section-heading">
+          <div><div class="eyebrow section-index">01 <span>WHAT LOID DOES</span></div><h2 id="capabilities-title">Useful, without<br>the learning curve.</h2></div>
+          <p class="section-intro">A small set of thoughtful tools for the moments when a good answer, a clearer explanation, or a shorter read makes all the difference.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card feature-chat">
+            <div class="feature-icon icon-violet" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 18.5 6.1 15A7.5 7.5 0 1 1 9 18.1L5 18.5Z"/><path d="M9 10.5h6M9 13.5h3.5"/></svg></div>
+            <div class="feature-number">01 / CONVERSATION</div><h3>Ask. Then ask again.</h3>
+            <p>Follow a thought naturally. Your short-lived context belongs to you, not the whole channel.</p>
+            <a href="#commands" class="text-link">Meet <code>/ask</code> <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="feature-card feature-focus">
+            <div class="feature-icon icon-cyan" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 4.5h10a2 2 0 0 1 2 2v13H7a2 2 0 0 1-2-2v-11a2 2 0 0 1 2-2Z"/><path d="M8 9h8M8 12.5h8M8 16h5"/></svg></div>
+            <div class="feature-number">02 / FOCUS</div><h3>Keep the good parts.</h3>
+            <p>Turn text you choose into a brief that keeps the facts, decisions, and details that matter.</p>
+            <a href="#commands" class="text-link">Meet <code>/summarize</code> <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="feature-card feature-learn">
+            <div class="feature-icon icon-gold" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5 14.3 9.7 20.5 12l-6.2 2.3L12 20.5l-2.3-6.2L3.5 12l6.2-2.3L12 3.5Z"/><path d="m18.5 3 .6 1.9L21 5.5l-1.9.6-.6 1.9-.6-1.9-1.9-.6 1.9-.6.6-1.9Z"/></svg></div>
+            <div class="feature-number">03 / UNDERSTANDING</div><h3>Learn at your pace.</h3>
+            <p>Choose how deep to go. Loid keeps an explanation readable, whether you're new or already fluent.</p>
+            <a href="#commands" class="text-link">Meet <code>/explain</code> <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section command-section" id="commands" aria-labelledby="commands-title">
+        <div class="page-shell">
+          <div class="section-heading command-heading">
+            <div><div class="eyebrow section-index">02 <span>THE TOOLKIT</span></div><h2 id="commands-title">A command for<br>the moment.</h2></div>
+            <div class="command-tools"><label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.4"/><path d="m15.5 15.5 4.2 4.2"/></svg><span class="sr-only">Filter commands</span><input id="command-search" type="search" placeholder="Find a command…" autocomplete="off"></label><p id="search-result" aria-live="polite">8 simple commands</p></div>
+          </div>
+          <div class="command-grid" id="command-grid">
+            <article class="command-card" data-search="ask chat conversation question follow up private tone"><div class="command-card-top"><span class="command-icon command-icon-violet">✦</span><span class="command-category">CHAT</span></div><h3><code>/ask</code></h3><p>Ask a question and keep the thread going without losing the point.</p><div class="command-bottom"><span>PRIVATE BY DEFAULT</span><button class="copy-command" type="button" data-copy="/ask question:">Copy command</button></div></article>
+            <article class="command-card" data-search="summarize summary text brief bullets notes"><div class="command-card-top"><span class="command-icon command-icon-cyan">≋</span><span class="command-category">FOCUS</span></div><h3><code>/summarize</code></h3><p>Paste the text you choose. Get the useful points back, cleanly.</p><div class="command-bottom"><span>TEXT YOU PROVIDE</span><button class="copy-command" type="button" data-copy="/summarize text:">Copy command</button></div></article>
+            <article class="command-card" data-search="translate language translation tone meaning"><div class="command-card-top"><span class="command-icon command-icon-green">⇄</span><span class="command-category">LANGUAGE</span></div><h3><code>/translate</code></h3><p>Move between languages while keeping the original intent intact.</p><div class="command-bottom"><span>TEXT YOU PROVIDE</span><button class="copy-command" type="button" data-copy="/translate text:">Copy command</button></div></article>
+            <article class="command-card" data-search="explain learn beginner intermediate advanced topic"><div class="command-card-top"><span class="command-icon command-icon-gold">✧</span><span class="command-category">LEARNING</span></div><h3><code>/explain</code></h3><p>Get a plain-language answer—or choose to go a level deeper.</p><div class="command-bottom"><span>YOUR PACE</span><button class="copy-command" type="button" data-copy="/explain topic:">Copy command</button></div></article>
+            <article class="command-card" data-search="clear forget memory data delete conversation"><div class="command-card-top"><span class="command-icon command-icon-rose">⌫</span><span class="command-category">CONTROL</span></div><h3><code>/clear</code></h3><p>Forget this channel's chat or clear all of your active Loid memory.</p><div class="command-bottom"><span>YOU'RE IN CONTROL</span><button class="copy-command" type="button" data-copy="/clear scope:">Copy command</button></div></article>
+            <article class="command-card" data-search="privacy data retention provider memory"><div class="command-card-top"><span class="command-icon command-icon-cyan">◉</span><span class="command-category">CONTROL</span></div><h3><code>/privacy</code></h3><p>See what Loid reads, what goes to Anthropic, and how memory works.</p><div class="command-bottom"><span>NO SURPRISES</span><button class="copy-command" type="button" data-copy="/privacy">Copy command</button></div></article>
+            <article class="command-card" data-search="status ping uptime model health"><div class="command-card-top"><span class="command-icon command-icon-green">↗</span><span class="command-category">UTILITY</span></div><h3><code>/status</code></h3><p>Check that Loid is awake and see the model and gateway ping.</p><div class="command-bottom"><span>QUICK HEALTH CHECK</span><button class="copy-command" type="button" data-copy="/status">Copy command</button></div></article>
+            <article class="command-card" data-search="help guide commands learn getting started"><div class="command-card-top"><span class="command-icon command-icon-violet">?</span><span class="command-category">GETTING STARTED</span></div><h3><code>/help</code></h3><p>A compact guide that meets you right where you are in Discord.</p><div class="command-bottom"><span>ALWAYS WITH YOU</span><button class="copy-command" type="button" data-copy="/help">Copy command</button></div></article>
+          </div>
+          <p class="no-results" id="no-results" hidden>No commands match that search. Try “chat”, “privacy”, or “translate”.</p>
+          <p class="copy-status" id="copy-status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="section privacy-section page-shell" id="privacy" aria-labelledby="privacy-title">
+        <div class="privacy-orb" aria-hidden="true"></div>
+        <div class="privacy-copy">
+          <div class="eyebrow section-index">03 <span>PRIVACY, MADE PLAIN</span></div>
+          <h2 id="privacy-title">Your words aren't<br><span class="gradient-text">the product.</span></h2>
+          <p>Loid only sees what you send through its commands. It doesn't listen in on the server, read a channel backlog, or pull in files behind your back.</p>
+          <a class="text-link" href="#setup">Read the setup notes <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="privacy-list">
+          <article><span class="privacy-number">01</span><div><h3>Private is the default.</h3><p>AI responses are visible only to you unless you actively choose a public reply.</p></div><span class="privacy-check" aria-label="Enabled">✓</span></article>
+          <article><span class="privacy-number">02</span><div><h3>Memory fades away.</h3><p>Chat context stays in RAM, expires after two hours, and clears when Loid restarts.</p></div><span class="privacy-check" aria-label="Enabled">✓</span></article>
+          <article><span class="privacy-number">03</span><div><h3>You decide what to send.</h3><p>Only text you submit (plus short-lived <code>/ask</code> context on follow-ups) goes to Anthropic.</p></div><span class="privacy-check" aria-label="Enabled">✓</span></article>
+          <article><span class="privacy-number">04</span><div><h3>Clear it when you want.</h3><p>Use <code>/clear</code> to remove Loid's local memory. It cannot retract text already sent to Anthropic.</p></div><span class="privacy-check" aria-label="Available">↻</span></article>
+        </div>
+      </section>
+
+      <section class="setup-section" id="setup" aria-labelledby="setup-title">
+        <div class="setup-shell page-shell">
+          <div class="setup-copy"><div class="eyebrow section-index">04 <span>READY WHEN YOU ARE</span></div><h2 id="setup-title">Simple to start.<br><span class="gradient-text">Easy to trust.</span></h2><p>Bring your own Discord app and Anthropic key. Loid stays yours to configure and run.</p><a class="button button-primary" href="https://discord.com/developers/applications" target="_blank" rel="noreferrer">Create a Discord app <span aria-hidden="true">↗</span></a><p class="setup-footnote">This preview does not connect to Discord or handle credentials.</p></div>
+          <div class="setup-card">
+            <div class="setup-card-heading"><div><span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-dot"></span></div><span>LOCAL SETUP · 3 STEPS</span></div>
+            <ol class="setup-steps">
+              <li><span class="step-number">01</span><div><strong>Install the project</strong><p>Use Node.js 20 or newer.</p></div></li>
+              <li><span class="step-number">02</span><div><strong>Add your private keys</strong><p>Copy <code>.env.example</code> to <code>.env</code>; never commit it.</p></div></li>
+              <li><span class="step-number">03</span><div><strong>Register and run</strong><p>Publish the slash commands, then start the bot.</p></div></li>
+            </ol>
+            <div class="setup-code"><code>npm ci <span>→</span> npm run register <span>→</span> npm start</code><button id="copy-setup" type="button" aria-label="Copy setup commands">Copy</button></div>
+            <p class="setup-hint" id="setup-status" aria-live="polite">Your credentials stay on your own server.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer page-shell"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 4.5 34 12.2v15.6l-14 7.7-14-7.7V12.2L20 4.5Z"/><path d="M13 25.8V14.2h3v8.9h8.5v2.7H13Z"/><circle cx="27.3" cy="15.2" r="2.2"/></svg></span><span class="brand-word">loid<span class="brand-period">.</span></span></a><p>Thoughtful AI for real conversations.</p><div class="footer-meta"><span>POWERED BY CLAUDE SONNET 5</span><a href="#privacy">PRIVACY NOTES</a><span>© LOID</span></div></footer>
+  </body>
+</html>

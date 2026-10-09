@@ -1,0 +1,7 @@
+services:
+  loid:
+    build: .
+    container_name: loid-discord-ai
+    restart: unless-stopped
+    env_file:
+      - .env
