@@ -1,0 +1,22 @@
+{
+  "name": "loid-discord-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A privacy-first Discord assistant powered only by Claude Sonnet 5.",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node scripts/register-commands.js",
+    "dashboard": "node web/server.js",
+    "test": "node --test",
+    "check": "node --check src/index.js && node --check src/commands.js && node --check src/handlers.js && node --check src/lib/ai.js && node --check src/lib/conversation-store.js && node --check src/lib/rate-limiter.js && node --check src/lib/discord-ui.js && node --check scripts/register-commands.js && node --check web/server.js && node --check web/app.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.132.1",
+    "discord.js": "14.27.0",
+    "dotenv": "18.0.6"
+  }
+}
