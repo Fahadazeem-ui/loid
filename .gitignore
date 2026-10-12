@@ -1,0 +1,17 @@
+# FileSorter generated data
+fixtures/
+fixtures_holdout/
+corpus/
+*.filesorter-report.json
+filesorter-report.*
+_filesorter_undo.json
+filesorter_corrections.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Report/demo output
+report/
+reports/
